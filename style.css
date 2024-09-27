@@ -1,0 +1,999 @@
+.layout {
+  width: 100%;
+  
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.layout1 {
+  border: 1px solid 
+  rgba(241, 245, 249, 1);
+  border-bottom: none;
+  border-left: none;
+  border-top:none ;
+  max-width: 52px;
+  /* width: 100%; */
+  min-height: 100vh;
+  display: flex;
+  /* margin-bottom: 24px; */
+  justify-content: space-between;
+  flex-direction: column;
+  position: fixed;
+}
+.ineer {
+  max-width: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.auter {
+  padding-top: 13px;
+  max-width: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+.Layout2 {
+  max-width: 208px;
+  /* width: 100%; */
+  padding-left: 52px;
+  padding-top: 72px;
+  position: fixed;
+  /* background-color: white; */
+}
+.dashboard {
+  font-family: "Inter";
+  max-width: 20;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+
+}
+
+.imga {
+  max-width: 16px;
+  /* width: 100%; */
+}
+
+.main1 {
+  display: flex;
+  gap: 8px;
+  /* padding-left: 60px; */
+}
+.main {
+  display: flex;
+  max-width: 208px; 
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  font-family: "Inter";
+  padding: 12px;
+  padding-left:15px;
+  text-align: center;
+
+     color:rgba(29, 78, 216, 1); 
+
+}
+.main:hover {
+  background-color: rgb(231, 235, 240);
+}
+.db{
+  max-width: 132px;
+  /* width: 100%; */
+  font-family: "Inter";
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+text-align: left;
+text-align: center;
+/* padding-top: 72px; */
+  /* color:rgba(29, 78, 216, 1); */
+}
+
+.txt3 {
+  max-width: 206px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: left;
+  /* margin-top: 20px;  */
+  margin-left: 48px;
+  color: rgba(71, 85, 105, 1);
+  cursor: pointer;
+  padding: 10px;
+}
+.txt3:hover {
+  background-color: rgb(231, 235, 240);
+}
+
+.txt4 {
+  max-width: 138px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: left;
+
+  margin-left: 48px;
+  color: rgba(71, 85, 105, 1);
+  cursor: pointer;
+  padding: 12px;
+}
+.txt4:hover {
+  background-color: rgb(231, 235, 240);
+}
+.txt4:hover {
+  background-color: rgb(231, 235, 240);
+}
+
+.dashboard1 {
+  font-family: "Inter";
+  max-width: 208px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgba(30, 41, 59, 1);
+  /* margin-top: 84px; */
+  display: flex;
+  justify-content: space-around;
+  /* margin-left: 15px; */
+  /* row-gap: 13px; */
+}
+
+.main12 {
+  display: flex;
+  gap: 8px;
+}
+.imgb {
+  max-width: 16px;
+  width: 100%;
+  cursor: pointer;
+  padding: 12px;
+}
+.dashboard1 {
+  font-family: "Inter";
+  max-width: 208px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgba(30, 41, 59, 1);
+  /* margin-top: 20px; */
+  display: flex;
+
+  /* margin-left: 15px; */
+  /* row-gap: 13px; */
+  /* gap: 11px; */
+}
+
+.maina {
+  display: flex;
+  max-width: 206px;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+}
+.mainb {
+  display: flex;
+  max-width: 206px;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+}
+.mainc {
+  display: flex;
+  max-width: 206px;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+}
+.maind {
+  display: flex;
+  max-width: 206px;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 12px;
+}
+.mainf {
+  display: flex;
+  max-width: 206px;
+  width: 100%;
+  padding: 12px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.maine {
+  display: flex;
+
+  padding: 12px;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.maina:hover {
+  background-color: rgb(231, 235, 240);
+}
+.mainb:hover {
+  background-color: rgb(231, 235, 240);
+}
+.mainc:hover {
+  background-color: rgb(231, 235, 240);
+}
+.maind:hover {
+  background-color: rgb(231, 235, 240);
+}
+.maine:hover {
+  background-color: rgb(231, 235, 240);
+}
+.mainf:hover {
+  background-color: rgb(231, 235, 240);
+}
+
+.layoutA {
+  max-width: 1180px;
+  width: 100%;
+  background: rgba(248, 250, 252, 1);
+  padding-left: auto;
+  padding-right: auto;
+ 
+}
+.issues{
+  max-width: 1180px;
+  padding-left: 260px;
+  width: 100%;
+}
+
+.s1 {
+  width: 260px;
+  height: 40px;
+  border: 1px solid rgba(203, 213, 225, 1);
+  border-radius: 4px;
+
+  background: rgba(241, 245, 249, 1);
+}
+.s1::placeholder {
+  padding-top: 13px;
+  padding-left: 40px;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Inter";
+}
+.container {
+  position: relative;
+  padding-top: 16px;
+  padding-left: 28px;
+  padding-bottom: 16px;
+}
+.im2 {
+  position: absolute;
+  top: 30px;
+  left: 44px;
+}
+.txts {
+  max-width: 177px;
+  padding-top: 20px;
+}
+.T1 {
+  max-width: 83px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.T2 {
+  max-width: 1225px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  text-align: left;
+}
+.arroww {
+  max-width: 24px;
+  height: 24px;
+  padding-left: 32px;
+  padding-right: 25px;
+  padding-top: 24px;
+}
+.cur {
+  cursor: pointer;
+}
+.cur:hover {
+  background-color: #dbeafe;
+}
+
+.parentMc {
+  border-left:  1px solid rgba(203, 213, 225, 1) ;
+  /* line-height: 20px; */
+ 
+  border-top: 11px;
+  padding-left: 31px;
+  /* padding-top: 80px; */
+  /* border-block-width: 22px; */
+
+}
+
+.Mc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  max-width: 1180px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(203, 213, 225, 1);
+
+  background: rgba(248, 250, 252, 1);
+ 
+z-index: 20;
+ position: fixed;
+
+}
+.IM {
+  padding-right: 93px;
+  padding-top: 28px;
+}
+.layoutb {
+  max-width: 1180px;
+  padding-top: 88px;
+  
+}
+.T3 {
+  max-width: 127px;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-left: 28px;
+  /* padding-top: 16px; */
+  color: rgba(30, 41, 59, 1);
+}
+.T4 {
+  max-width: 375px;
+  width: 100%;
+  white-space: nowrap;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  padding-left: 28px;
+  padding-top: 4px;
+  color: rgba(30, 41, 59, 1);
+  cursor: pointer;
+}
+.Layoutd {
+  /* background: rgba(255, 255, 255, 1); */
+  margin-top: 24px;
+  max-width: 1124px;
+  min-width: 980px;
+  padding-top:16px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isssue2{
+  background-color: white;
+}
+.layautin {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 52px;
+  /* padding: 16px 28px 32px 28px; */
+  /* background: rgba(255, 255, 255, 1); */
+}
+.ph2 {
+  margin-top: 16px;
+  max-width: 236px;
+  width: 100%;
+  min-height: 40px;
+  /* padding-left: 49px; */
+  border: 1px solid rgba(203, 213, 225, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+.ph2::placeholder {
+  padding-top: 13px;
+  padding-left: 16px;
+  max-width: 47px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+.con2 {
+  position: relative;
+  max-width: 236px;
+  width: 100%;
+}
+.img2 {
+  position: absolute;
+  right: 16px;
+  top: 29px;
+}
+.but {
+  max-width: 110px;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  padding: 15px 20px 14px 20px;
+  border: 1px solid #1d4ed8;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d4ed8;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  border-radius: 4px;
+}
+.but:hover {
+  background-color: rgb(231, 235, 240);
+}
+.rel {
+  max-width: 16px;
+  width: 100%;
+}
+.but2 {
+  max-width: 124px;
+  width: 100%;
+  /* max-height: 44px; */
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  /* background: rgba(29, 78, 216, 1); */
+  color: rgba(255, 255, 255, 1);
+  background: rgba(29, 78, 216, 1);
+  border: 1px solid rgba(29, 78, 216, 1);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mainbt {
+  max-width: 256px;
+  width: 100%;
+  display: flex;
+  gap: 22px;
+  margin-top: 16px;
+}
+.th1 {
+  /* max-width: 61px; */
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  color: rgb(153, 167, 187);
+  gap: 10px;
+}
+.head {
+  display: flex;
+}
+
+.box1 {
+  max-width: 20px;
+  width: 100%;
+  min-height: 20px;
+  border: 1px solid rgba(148, 163, 184, 1);
+  margin-left: 24px;
+  color: rgba(148, 163, 184, 1);
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1pt solid #f1f5f9;
+}
+th {
+  padding-bottom: 21.5px;
+  padding-top: 21.5px;
+}
+.checkA {
+  max-width: 20px;
+  width: 100%;
+  min-height: 20px;
+  /* margin-left: 52px; */
+  background: #ffffff;
+  cursor: pointer;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+}
+.checkA:hover {
+  background: #dbeafe;
+}
+
+/* input[type="checkbox"]{
+  background-color:red ;
+} */
+
+.checkB {
+  max-width: 20px;
+  width: 100%;
+  min-height: 20px;
+  /* margin-left: 52px; */
+  background: #ffffff;
+  cursor: pointer;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+}
+
+.checkB:hover {
+  background: #dbeafe;
+}
+
+.checkC{
+width: 20px;
+  height: 20px;
+/* margin-left: 52px; */
+
+  /* padding-left: 20px; */
+  background: #ffffff;
+  cursor: pointer;
+  border: 1px solid #94a3b8;
+  border-radius: 4px;
+}
+
+.checkD{
+  width: 20px;
+    height: 20px;
+  
+  
+    padding-left: 20px;
+    background: #ffffff;
+    cursor: pointer;
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+  }
+
+.checkC:hover {
+  background: #dbeafe;
+}
+.del {
+  max-width: 124px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #ffffff;
+  
+
+}
+
+element.style {
+  position: absolute;
+  right: 0px;
+  top: -14px;
+  box-shadow: 2px 3px 1px 1px;
+  /* color: lightgrey; */
+}
+.del1 {
+  max-width: 116px;
+  /* width: 100%; */
+  color: rgba(71, 85, 105, 1);
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 66px;
+  cursor: pointer;
+}
+
+.del2 {
+  max-width: 124px;
+  /* width: 100%; */
+  color: rgba(71, 85, 105, 1);
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 66px;
+  cursor: pointer;
+}
+.arrow4 {
+  padding-left: 61px;
+}
+
+.del2:hover {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 4px;
+}
+.del1:hover {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border-radius: 4px;
+}
+
+.texts1 {
+  padding-left: 32px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts3 {
+  padding-left: 56px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts4 {
+  padding-left: 64px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts5 {
+  padding-left: 50.5px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts6 {
+  padding-left: 87px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.texts7 {
+  padding-left: 183px;
+
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+  /* cursor: pointer; */
+}
+
+.Textsa {
+  /* padding-top:53px ; */
+  /* padding-left: 84px; */
+  padding-right: 28.5px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.Textsb {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+
+.Textsc {
+  padding-left: 64px;
+  /* padding-top: 53px; */
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.Textsd {
+  /* padding-top: 53px; */
+  padding-left: 50.0px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  /* color: rgba(71, 85, 105, 1); */
+}
+.star {
+  /* padding-top: 52px; */
+}
+.stars {
+  /* padding-top: 59px; */
+}
+.Textsb {
+  padding-left: 56px;
+  /* padding-top: 53px; */
+}
+.Textsb1 {
+  padding-left: 56px;
+  /* padding-top: 58px; */
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  color: rgba(71, 85, 105, 1);
+}
+.btne {
+  /* padding-top: 46px; */
+  padding-left: 87px;
+}
+.btn {
+  /* padding-top: 44px; */
+  padding-left: 65px;
+}
+.arrow1 {
+  padding-left: 61px;
+  /* padding-top: 57px; */
+}
+.arrow2 {
+  padding-left: 61px;
+  /* padding-top: 67px; */
+}
+.bytn {
+  /* max-width: 81px; */
+  /* width: 100%; */
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  background: #dcfce7;
+  border: 1px solid #dcfce7;
+  color: #15803d;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  /* text-align: left; */
+}
+.bytn2 {
+  max-width: 88px;
+  width: 100%;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  /* text-align: left; */
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  color: #1d4ed8;
+  background: #dbeafe;
+  border: 1px #dbeafe;
+}
+.bytn3 {
+  /* max-width:71px ;
+  width:100% ; */
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #ca8a04;
+  background: #fef9c3;
+  border: 1px solid #fef9c3;
+}
+
+.bytn4 {
+  /* max-width:70px ;
+  width:100% ; */
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #dc2626;
+  background: #fee2e2;
+  border: 1px #fee2e2;
+}
+.four {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  /* text-align: left; */
+  color: #ca8a04;
+}
+
+.fours {
+  max-width: 87px;
+  /* display: flex; */
+  /* align-items: center; */
+
+  color: #ca8a04;
+}
+.out {
+  max-width: 77px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #dc2626;
+}
+.type1 {
+  /* max-width: 28px; 
+  min-height: 28px; */
+  width: 100%;
+  padding-top: 8px;
+  padding-left: 11px;
+  padding-bottom: 8px;
+  padding-right: 11px;
+  background: #ffffff;
+  color: #4b5563;
+  border: 1px solid #d1d5db;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.type1:hover {
+  color: #1d4ed8;
+  border: 1px solid #1d4ed8;
+  background-color: rgb(226, 230, 236);
+
+}
+
+.frams {
+  display: flex;
+  justify-content: end;
+  padding-top: 38px;
+}
+.TYP {
+  max-width: 319px;
+  /* min-height: 54px; */
+  /* min-height: 56px; */
+  padding-right: 24px;
+  gap: 16px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 38px;
+}
+.type2 {
+  /* max-width: 28px; 
+  min-height: 28px; */
+  width: 100%;
+  padding-top: 8px;
+  padding-left: 11px;
+  padding-bottom: 8px;
+  padding-right: 11px;
+  background: #ffffff;
+  color: #4b5563;
+  border: 1px solid #d1d5db;
+  /* border: 1px solid #1d4ed8; */
+  /* color:  #1d4ed8; */
+  cursor: pointer;
+  border-radius: 6px;
+}
+.type2:hover {
+  color: #1d4ed8;
+  border: 1px solid #1d4ed8;
+  background-color: rgb(226, 230, 236);
+}
+
+.proces {
+  /* padding-left: 2px; */
+  max-width: 146px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  top: 90px;
+  right: 150px;
+  box-shadow: 2px 3px 4px 1px 
+  rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 2px 2px 2px 2px;
+
+}
+/* .pag1{
+  max-width:65px ;
+  width: 100%;
+  color: rgba(71, 85, 105, 1);
+  font-family: "Inter";
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+
+} */
+.pag2 {
+  max-width: 75px;
+  width: 100%;
+  color: rgba(71, 85, 105, 1);
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 51px;
+  cursor: pointer;
+
+  /* right: 160px;
+top: 120px;
+display: inline-block; */
+  /* bottom: 4px; */
+  /* left: 2px; */
+}
+.pag2:hover {
+  background: #dbeafe;
+  border-radius: 4px;
+  /* padding: 2px 2px 2px 2px; */
+/* padding-left: 9px; */
+  color: #1d4ed8;
+}
+/* .pag3{
+  max-width:54px ;
+  width: 100%;
+  color: rgba(71, 85, 105, 1);
+  font-family: "Inter";
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+text-align: left;
+
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 12px;
+padding-right: 72px;
+cursor: pointer;
+}
+.pag3:hover{
+  background: #DBEAFE;
+} */
+li::marker{
+  color:  rgba(191, 219, 254, 1);
+
+  
+}
+
+
+
